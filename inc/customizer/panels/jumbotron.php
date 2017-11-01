@@ -45,7 +45,7 @@ $wp_customize->add_control(  new Epsilon_Control_Toggle( $wp_customize, $prefix 
 
 $wp_customize->add_setting( $prefix . '_jumbotron_title', array(
 	'sanitize_callback' => 'wp_kses_post',
-	'default'           => __( 'Clean <span class="span-dot">.</span> Slick<span class="span-dot">.</span> Pixel Perfect', 'illdy' ),
+	'default'           => __( 'Averla : <span class="span-dot">.</span> We<span class="span-dot">.</span> Brand <span class="span-dot">.</span> You', 'illdy' ),
 	'transport'         => 'postMessage',
 ) );
 $wp_customize->add_control(  new Epsilon_Editor_Custom_Control(
